@@ -545,7 +545,7 @@ Blockly.Css.CONTENT = [
   '}',
 
   '.blocklyMenuItemSelected .blocklyMenuItemCheckbox {',
-    'background: url(<<<PATH>>>/sprites.png) no-repeat -48px -16px;',
+    'background: url(/typesetting/graphics/Blockly_sprites.png) no-repeat -48px -16px;',
     'float: left;',
     'margin-left: -24px;',
     'position: static;', /* Scroll with the menu. */

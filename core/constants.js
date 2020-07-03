@@ -104,7 +104,7 @@ Blockly.HSV_VALUE = 0.65;
 Blockly.SPRITE = {
   width: 96,
   height: 124,
-  url: 'sprites.png'
+  url: '/typesetting/graphics/Blockly_sprites.png'
 };
 
 // Constants below this point are not intended to be changed.

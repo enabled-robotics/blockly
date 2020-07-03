@@ -874,7 +874,7 @@ Blockly.Css.register([
   '}',
 
   '.blocklyTreeIcon {',
-    'background-image: url(<<<PATH>>>/sprites.png);',
+    'background-image: url(/typesetting/graphics/Blockly_sprites.png);',
     'height: 16px;',
     'vertical-align: middle;',
     'width: 16px;',

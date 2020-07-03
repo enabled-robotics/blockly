@@ -281,8 +281,7 @@ Blockly.Trashcan.prototype.createDom = function() {
         'clip-path': 'url(#blocklyTrashBodyClipPath' + rnd + ')'
       },
       this.svgGroup_);
-  body.setAttributeNS(Blockly.utils.dom.XLINK_NS, 'xlink:href',
-      this.workspace_.options.pathToMedia + Blockly.SPRITE.url);
+  body.setAttributeNS(Blockly.utils.dom.XLINK_NS, 'xlink:href', Blockly.SPRITE.url);
 
   clip = Blockly.utils.dom.createSvgElement('clipPath',
       {'id': 'blocklyTrashLidClipPath' + rnd},
@@ -298,8 +297,7 @@ Blockly.Trashcan.prototype.createDom = function() {
         'clip-path': 'url(#blocklyTrashLidClipPath' + rnd + ')'
       },
       this.svgGroup_);
-  this.svgLid_.setAttributeNS(Blockly.utils.dom.XLINK_NS, 'xlink:href',
-      this.workspace_.options.pathToMedia + Blockly.SPRITE.url);
+  this.svgLid_.setAttributeNS(Blockly.utils.dom.XLINK_NS, 'xlink:href',Blockly.SPRITE.url);
 
   Blockly.bindEventWithChecks_(this.svgGroup_, 'mouseup', this, this.click);
   // bindEventWithChecks_ quashes events too aggressively. See:
