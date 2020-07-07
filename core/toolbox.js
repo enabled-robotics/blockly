@@ -603,8 +603,8 @@ Blockly.Toolbox.prototype.setColour_ = function(colourValue, childOut,
         this.hasColours_ = true;
       } else {
         childOut.hexColour = '';
-        console.warn('Toolbox category "' + categoryName +
-            '" has unrecognized colour attribute: ' + colour);
+        /*console.warn('Toolbox category "' + categoryName +
+            '" has unrecognized colour attribute: ' + colour);*/
       }
     }
   }
