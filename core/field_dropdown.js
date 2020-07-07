@@ -500,9 +500,10 @@ Blockly.FieldDropdown.prototype.doClassValidation_ = function(opt_newValue) {
   }
   if (!isValueValid) {
     if (this.sourceBlock_) {
-      console.warn('Cannot set the dropdown\'s value to an unavailable option.' +
+      /*console.warn('Cannot set the dropdown\'s value to an unavailable option.' +
         ' Block type: ' + this.sourceBlock_.type + ', Field name: ' + this.name +
-        ', Value: ' + opt_newValue);
+        ', Value: ' + opt_newValue);*/
+        this.sourceBlock_.oldName = opt_newValue;
     }
     return null;
   }
