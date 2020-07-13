@@ -157,7 +157,7 @@ Blockly.WorkspaceSvg = function(options,
    * @type {!Blockly.blockRendering.Renderer}
    * @private
    */
-  this.renderer_ = Blockly.blockRendering.init(this.options.renderer || 'geras',
+  this.renderer_ = Blockly.blockRendering.init(this.options.renderer || 'zelos',
       this.getTheme(), this.options.rendererOverrides);
 
   /**

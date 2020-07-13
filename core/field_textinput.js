@@ -229,13 +229,14 @@ Blockly.FieldTextInput.prototype.doValueUpdate_ = function(newValue) {
 Blockly.FieldTextInput.prototype.applyColour = function() {
   if (this.sourceBlock_ && this.getConstants().FULL_BLOCK_FIELDS) {
     if (this.borderRect_) {
-      this.borderRect_.setAttribute('stroke',
+      //console.log(this)
+      this.borderRect_.setAttribute('fill',
           this.sourceBlock_.style.colourTertiary);
     } else {
       this.sourceBlock_.pathObject.svgPath.setAttribute('fill',
           this.getConstants().FIELD_BORDER_RECT_COLOUR);
     }
-  }
+}
 };
 
 /**
