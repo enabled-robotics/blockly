@@ -28,7 +28,7 @@ goog.require('Blockly.utils.svgPaths');
 Blockly.zelos.ConstantProvider = function() {
   Blockly.zelos.ConstantProvider.superClass_.constructor.call(this);
 
-  this.GRID_UNIT = 4;
+  this.GRID_UNIT = 3;
 
   /**
    * @override
@@ -83,7 +83,7 @@ Blockly.zelos.ConstantProvider = function() {
   /**
    * @override
    */
-  this.MIN_BLOCK_HEIGHT = 10 * this.GRID_UNIT;
+  this.MIN_BLOCK_HEIGHT = 5 * this.GRID_UNIT;
 
   /**
    * @override
@@ -98,7 +98,7 @@ Blockly.zelos.ConstantProvider = function() {
   /**
    * @override
    */
-  this.TOP_ROW_MIN_HEIGHT = 0.5*this.CORNER_RADIUS;
+  this.TOP_ROW_MIN_HEIGHT = this.CORNER_RADIUS;
 
   /**
    * @override
@@ -108,7 +108,7 @@ Blockly.zelos.ConstantProvider = function() {
   /**
    * @override
    */
-  this.BOTTOM_ROW_MIN_HEIGHT = 0.5*this.CORNER_RADIUS;
+  this.BOTTOM_ROW_MIN_HEIGHT = 1.5 * this.CORNER_RADIUS;
 
   /**
    * @override
