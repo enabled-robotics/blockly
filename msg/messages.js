@@ -1207,53 +1207,53 @@ Blockly.Msg.PROCEDURES_IFRETURN_WARNING = 'Warning: This block may be used only 
 /// the user can type here.
 Blockly.Msg.WORKSPACE_COMMENT_DEFAULT_TEXT = 'Say something...';
 
-Blockly.Msg.ER_ARRAY_DESCRIPTION = 'Array of numbers'
-Blockly.Msg.ER_ARRAY_TITLE = 'Array'
-Blockly.Msg.ER_ARRAY_SET_TOOLTIP = 'Array of numbers'
-Blockly.Msg.ER_CONTROLS_FOR_DESCRIPTION = '[INSERT DESCRIPTION]'
+Blockly.Msg.ER_ARRAY_DESCRIPTION = 'Array of numbers';
+Blockly.Msg.ER_ARRAY_TITLE = 'Array';
+Blockly.Msg.ER_ARRAY_SET_TOOLTIP = 'Array of numbers';
+Blockly.Msg.ER_CONTROLS_FOR_DESCRIPTION = '[INSERT DESCRIPTION]';
 Blockly.Msg.ER_CONTROLS_FOR_TITLE = '[INSERT TITEL]'
-Blockly.Msg.ER_CONTROLS_FOR_TOOLTIP = '[INSERT TOOLTIP]'
-Blockly.Msg.ER_CONTROLS_IF_DESCRIPTION = 'If construct with optional \'else if\' and \'else\''
-Blockly.Msg.ER_CONTROLS_IF_TITLE = 'If'
-Blockly.Msg.ER_CONTROLS_IF_TOOLTIP = 'If construct with optional \'else if\' and \'else\''
-Blockly.Msg.ER_CONTROLS_REPEAT_DESCRIPTION = 'Repeats a set of instruction a number of times'
-Blockly.Msg.ER_CONTROLS_REPEAT_TITLE = 'Repeat'
-Blockly.Msg.ER_CONTROLS_REPEAT_TOOLTIP = 'Repeats a set of instruction a number of times'
-Blockly.Msg.ER_CONTROLS_WHILE_DESCRIPTION = '[INSERT DESCRIPTION]'
-Blockly.Msg.ER_CONTROLS_WHILE_TITLE = '[INSERT TITEL]'
-Blockly.Msg.ER_CONTROLS_WHILE_TOOLTIP = '[INSERT TOOLTIP]'
+Blockly.Msg.ER_CONTROLS_FOR_TOOLTIP = '[INSERT TOOLTIP]';
+Blockly.Msg.ER_CONTROLS_IF_DESCRIPTION = 'If construct with optional \'else if\' and \'else\'';
+Blockly.Msg.ER_CONTROLS_IF_TITLE = 'If';
+Blockly.Msg.ER_CONTROLS_IF_TOOLTIP = 'If construct with optional \'else if\' and \'else\'';
+Blockly.Msg.ER_CONTROLS_REPEAT_DESCRIPTION = 'Repeats a set of instruction a number of times';
+Blockly.Msg.ER_CONTROLS_REPEAT_TITLE = 'Repeat';
+Blockly.Msg.ER_CONTROLS_REPEAT_TOOLTIP = 'Repeats a set of instruction a number of times';
+Blockly.Msg.ER_CONTROLS_WHILE_DESCRIPTION = '[INSERT DESCRIPTION]';
+Blockly.Msg.ER_CONTROLS_WHILE_TITLE = '[INSERT TITEL]';
+Blockly.Msg.ER_CONTROLS_WHILE_TOOLTIP = '[INSERT TOOLTIP]';
 
-Blockly.Msg.ER_TRY_CATCH_DESCRIPTION = 'Try Catch structure enabling catching errors produced by the code in the Try section. <br/><br/>Only if an error is triggered the instructions specified within the Catch section is executed'
-Blockly.Msg.ER_TRY_CATCH_TITLE = 'Try Catch'
-Blockly.Msg.ER_TRY_CATCH_TOOLTIP = 'Try Catch structure'
+Blockly.Msg.ER_TRY_CATCH_DESCRIPTION = 'Try Catch structure enabling catching errors produced by the code in the Try section. <br/><br/>Only if an error is triggered the instructions specified within the Catch section is executed';
+Blockly.Msg.ER_TRY_CATCH_TITLE = 'Try Catch';
+Blockly.Msg.ER_TRY_CATCH_TOOLTIP = 'Try Catch structure';
 
-Blockly.Msg.ER_THROW_DESCRIPTION = 'Throws an error message, which can be caught by the Try-Catch block.'
-Blockly.Msg.ER_THROW_TITLE = 'Throw'
-Blockly.Msg.ER_THROW_TOOLTIP = 'Throws an error message.'
-    
-Blockly.Msg.ER_DIG_IO_DESCRIPTION = 'Get value of digital IO.<br/>Supports both getting the values of inputs and accessing values of outputs.'
-Blockly.Msg.ER_DIG_IO_TITLE = 'Digital IO'
-Blockly.Msg.ER_DIG_IO_TOOLTIP = 'Value of Digital IO'
-Blockly.Msg.ER_ANALOG_IO_DESCRIPTION = 'Get value of analog IO.<br/>Supports both getting the values of inputs and accessing values of outputs.'
-Blockly.Msg.ER_ANALOG_IO_TITLE = 'Analog IO'
-Blockly.Msg.ER_ANALOG_IO_TOOLTIP = 'Value of Analog IO'
+Blockly.Msg.ER_THROW_DESCRIPTION = 'Throws an error message, which can be caught by the Try-Catch block.';
+Blockly.Msg.ER_THROW_TITLE = 'Throw';
+Blockly.Msg.ER_THROW_TOOLTIP = 'Throws an error message.';
+
+Blockly.Msg.ER_DIG_IO_DESCRIPTION = 'Get value of digital IO.<br/>Supports both getting the values of inputs and accessing values of outputs.';
+Blockly.Msg.ER_DIG_IO_TITLE = 'Digital IO';
+Blockly.Msg.ER_DIG_IO_TOOLTIP = 'Value of Digital IO';
+Blockly.Msg.ER_ANALOG_IO_DESCRIPTION = 'Get value of analog IO.<br/>Supports both getting the values of inputs and accessing values of outputs.';
+Blockly.Msg.ER_ANALOG_IO_TITLE = 'Analog IO';
+Blockly.Msg.ER_ANALOG_IO_TOOLTIP = 'Value of Analog IO';
 //Blockly.Msg.ER_DIG_INPUT_DESCRIPTION = 'Specify digital input condition'
 //Blockly.Msg.ER_DIG_INPUT_TITLE = 'Digital Input'
 //Blockly.Msg.ER_DIG_INPUT_TOOLTIP = 'Digital Input element'
 //Blockly.Msg.ER_DIG_OUTPUT_DESCRIPTION = 'Specifies digital output setting'
 //Blockly.Msg.ER_DIG_OUTPUT_TITLE = 'Digital Output'
 //Blockly.Msg.ER_DIG_OUTPUT_TOOLTIP = 'Digital Output element'
-Blockly.Msg.ER_DRIVE_TO_COORDINATES_DESCRIPTION = 'Drive to the waypoints defined in the body of the instruction'
-Blockly.Msg.ER_DRIVE_TO_COORDINATES_TITLE = 'Drive to Waypoints '
-Blockly.Msg.ER_DRIVE_TO_COORDINATES_TOOLTIP = 'Drive to the waypoints defined in the body of the instruction'
-Blockly.Msg.ER_DRIVE_TO_DEFINED_POSITION_DESCRIPTION = 'Drive to a named position defined for the mobile robot'
-Blockly.Msg.ER_DRIVE_TO_DEFINED_POSITION_TITLE = 'Drive to Position'
-Blockly.Msg.ER_DRIVE_TO_DEFINED_POSITION_TOOLTIP = 'Drive to a named position defined for the mobile robot'
-Blockly.Msg.ER_DRIVE_TO_CHARGING_STATION_DESCRIPTION = 'Drive to the specified charging station and start charging'
-Blockly.Msg.ER_DRIVE_TO_CHARGING_STATION_TITLE = 'Drive to Charging Station'
-Blockly.Msg.ER_DRIVE_TO_CHARGING_STATION_TOOLTIP = 'Drive to the specified charging station and start charging'
+Blockly.Msg.ER_DRIVE_TO_COORDINATES_DESCRIPTION = 'Drive to the waypoints defined in the body of the instruction';
+Blockly.Msg.ER_DRIVE_TO_COORDINATES_TITLE = 'Drive to Waypoints ';
+Blockly.Msg.ER_DRIVE_TO_COORDINATES_TOOLTIP = 'Drive to the waypoints defined in the body of the instruction';
+Blockly.Msg.ER_DRIVE_TO_DEFINED_POSITION_DESCRIPTION = 'Drive to a named position defined for the mobile robot';
+Blockly.Msg.ER_DRIVE_TO_DEFINED_POSITION_TITLE = 'Drive to Position';
+Blockly.Msg.ER_DRIVE_TO_DEFINED_POSITION_TOOLTIP = 'Drive to a named position defined for the mobile robot';
+Blockly.Msg.ER_DRIVE_TO_CHARGING_STATION_DESCRIPTION = 'Drive to the specified charging station and start charging';
+Blockly.Msg.ER_DRIVE_TO_CHARGING_STATION_TITLE = 'Drive to Charging Station';
+Blockly.Msg.ER_DRIVE_TO_CHARGING_STATION_TOOLTIP = 'Drive to the specified charging station and start charging';
 
-Blockly.Msg.ER_MIR_MISSIONS_DESCRIPTION = 'Execute MiR mission defined in the MiR interface'
+Blockly.Msg.ER_MIR_MISSIONS_DESCRIPTION = 'Execute MiR mission defined in the MiR interface';
 Blockly.Msg.ER_MIR_MISSIONS_TITLE = 'Execute MiR mission'
 Blockly.Msg.ER_MIR_MISSIONS_TOOLTIP = 'Executes a MiR mission from the MiR interface'
 
@@ -1307,16 +1307,16 @@ Blockly.Msg.ER_MIR_VAR_SET_TOOLTIP = '[INSERT TOOLTIP]'
 Blockly.Msg.ER_PROGRAM_DESCRIPTION = 'Defines program to be executed. '
 Blockly.Msg.ER_PROGRAM_TITLE = 'Program'
 Blockly.Msg.ER_PROGRAM_TOOLTIP = 'Defines program to be executed'
-    
+
 Blockly.Msg.ER_FUNCTION_BLOCK_TITLE = 'Function Block'
 Blockly.Msg.ER_FUNCTION_BLOCK_DESCRIPTION = 'Defines a sequence of instructions which can be called as a function. <br/><br/>The instrutions of the Function Block is called as if they where inlined in the sequence of the caller. Variables are therefore not subject to scope.'
-Blockly.Msg.ER_FUNCTION_BLOCK_TOOLTIP = 'Defines block of instructions'    
-    
+Blockly.Msg.ER_FUNCTION_BLOCK_TOOLTIP = 'Defines block of instructions'
+
 Blockly.Msg.ER_CALL_FUNCTION_BLOCK_TITLE = 'Call Function Block'
 Blockly.Msg.ER_CALL_FUNCTION_BLOCK_DESCRIPTION = 'Executes the instructions defined in a function block'
-Blockly.Msg.ER_CALL_FUNCTION_BLOCK_TOOLTIP = 'Call Function Block'    
-    
-    
+Blockly.Msg.ER_CALL_FUNCTION_BLOCK_TOOLTIP = 'Call Function Block'
+
+
 Blockly.Msg.ER_Q_DESCRIPTION = 'Configuration of the robot arm specified by joint angles. All angles specified in degrees.'
 Blockly.Msg.ER_Q_TITLE = 'Joint Configuration'
 Blockly.Msg.ER_Q_TOOLTIP = 'Configuration of the robot arm specified by joint angles. All angles specified in degrees.'
@@ -1357,7 +1357,7 @@ Blockly.Msg.ER_WAIT_UNTIL_TOOLTIP = 'Wait until condition'
 Blockly.Msg.ER_WAIT_TOOLTIP = 'Wait for defined time'
 Blockly.Msg.ER_WAIT_TITLE = 'Wait'
 Blockly.Msg.ER_WAIT_DESCRIPTION = 'Wait for the specified time before continuing execution'
-    
+
 Blockly.Msg.ER_ARM_WAYPOINT_DESCRIPTION = 'Waypoints can specified as robot joint angles or Cartesian tool configurations'
 Blockly.Msg.ER_ARM_WAYPOINT_TITLE = 'Waypoint for arm'
 Blockly.Msg.ER_ARM_WAYPOINT_TOOLTIP = 'Waypoint for arm'
@@ -1380,12 +1380,12 @@ Blockly.Msg.ER_VAR_GET_TITLE = 'Get variable.'
 Blockly.Msg.ER_VAR_GET_TOOLTIP = 'Get value of variable.'
 
 
-    
-    
+
+
 Blockly.Msg.ER_SET_REFERENCE_DESCRIPTION = 'Set value of reference. <br/><br/>If reference does not already exists a new reference is created.'
 Blockly.Msg.ER_SET_REFERENCE_TITLE = 'Set Reference'
 Blockly.Msg.ER_SET_REFERENCE_TOOLTIP = 'Set value of reference'
-    
+
 Blockly.Msg.ER_VAR_SET_DESCRIPTION = 'Set value of variable'
 Blockly.Msg.ER_VAR_SET_TITLE = 'Set Variable'
 Blockly.Msg.ER_VAR_SET_TOOLTIP = 'Set value of variable'
@@ -1420,11 +1420,11 @@ Blockly.Msg.ER_BATTERY_POWER_PERCENTAGE_TOOLTIP = 'Remaining battery power in pe
 Blockly.Msg.ER_POPUP_DESCRIPTION = 'Popup message with true/false return value'
 Blockly.Msg.ER_POPUP_TITLE = 'Popup'
 Blockly.Msg.ER_POPUP_TOOLTIP = 'Popup message with true/false return value'
-            
+
 Blockly.Msg.ER_GRIPPER_MOVE_TITLE = 'Gripper Open/Close'
 Blockly.Msg.ER_GRIPPER_MOVE_DESCRIPTION = 'Open/close gripper to specified configuration'
 Blockly.Msg.ER_GRIPPER_MOVE_TOOLTIP = 'Gripper Open/Close'
-    
+
 Blockly.Msg.ER_PALLETIZE_TITLE = 'Palletize'
 Blockly.Msg.ER_PALLETIZE_DESCRIPTION = 'The Palletize block runs a sequence of instruction for the specified amount locations specified in a pattern. </br> If a pattern is shared as a variable among multiple Palletize blocks the pattern will keep track of the next location to apply.'
 Blockly.Msg.ER_PALLETIZE_TOOLTIP = 'Runs a sequence of instructions in a given pattern'
@@ -1432,8 +1432,8 @@ Blockly.Msg.ER_PALLETIZE_TOOLTIP = 'Runs a sequence of instructions in a given p
 Blockly.Msg.ER_BOXPATTERN_TITLE = 'Box Pattern'
 Blockly.Msg.ER_BOXPATTERN_DESCRIPTION = 'Defines a set of positions in a box shaped (rectanglar) pattern'
 Blockly.Msg.ER_BOXPATTERN_TOOLTIP = 'Defines box shaped (rectangular) pattern'
-    
-    
+
+
 /// warning - This appears if the user collapses a block, and blocks inside
 // that block have warnings attached to them. It should inform the user that the
 // block they collapsed contains blocks that have warnings.

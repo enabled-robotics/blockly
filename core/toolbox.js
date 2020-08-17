@@ -821,13 +821,16 @@ Blockly.Css.register([
     'background-color: #ddd;',
     'overflow-x: visible;',
     'overflow-y: auto;',
+    'padding-top: 50px;',
     'position: absolute;',
+    'box-shadow: inset -2px 0px 5px 0px rgba(0, 0, 0, 0.2);',
     'z-index: 70;', /* so blocks go under toolbox when dragging */
     '-webkit-tap-highlight-color: transparent;', /* issue #1345 */
   '}',
 
   '.blocklyTreeRoot {',
     'padding: 4px 0;',
+    'overflow-y: auto;',
   '}',
 
   '.blocklyTreeRoot:focus {',
