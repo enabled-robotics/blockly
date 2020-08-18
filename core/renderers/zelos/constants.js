@@ -68,7 +68,7 @@ Blockly.zelos.ConstantProvider = function() {
   /**
    * @override
    */
-  this.NOTCH_OFFSET_LEFT = 10 * this.GRID_UNIT;
+  this.NOTCH_OFFSET_LEFT = 12 * this.GRID_UNIT;
 
   /**
    * @override
@@ -98,7 +98,7 @@ Blockly.zelos.ConstantProvider = function() {
   /**
    * @override
    */
-  this.TOP_ROW_MIN_HEIGHT = this.CORNER_RADIUS;
+  this.TOP_ROW_MIN_HEIGHT = 1.5*this.CORNER_RADIUS;
 
   /**
    * @override
@@ -113,7 +113,7 @@ Blockly.zelos.ConstantProvider = function() {
   /**
    * @override
    */
-  this.BOTTOM_ROW_AFTER_STATEMENT_MIN_HEIGHT = 2 * this.GRID_UNIT;
+  this.BOTTOM_ROW_AFTER_STATEMENT_MIN_HEIGHT = 3 * this.GRID_UNIT;
 
   /**
    * @override
