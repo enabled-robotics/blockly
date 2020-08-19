@@ -241,13 +241,17 @@ Blockly.ContextMenu.blockHelpOption = function(block) {
   var url = (typeof block.helpUrl == 'function') ?
       block.helpUrl() : block.helpUrl;
   var helpOption = {
-    enabled: !!url,
+    enabled: true,
     text: Blockly.Msg['HELP'],
     callback: function() {
-      block.showHelp();
+        document.getElementById("BlockInfoTitle").value = block.type;
+        currentBlock = null;
+        showBlockInfoBox()
     }
   };
   return helpOption;
+  console.log("here");
+
 };
 
 /**
