@@ -379,6 +379,7 @@ Blockly.FieldDropdown.prototype.handleMenuActionEvent_ = function(menuItem) {
  */
 Blockly.FieldDropdown.prototype.onItemSelected_ = function(menu, menuItem) {
   this.setValue(menuItem.getValue());
+  this.forceRerender();
 };
 
 /**

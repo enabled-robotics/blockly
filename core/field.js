@@ -585,6 +585,16 @@ Blockly.Field.prototype.getSvgRoot = function() {
  * @package
  */
 Blockly.Field.prototype.applyColour = function() {
+    /*if (this.borderRect_) {
+      this.borderRect_.setAttribute('stroke',
+          this.sourceBlock_.style.colourTertiary);
+      if (this.menu_) {
+        this.borderRect_.setAttribute('fill',
+            this.sourceBlock_.style.colourTertiary);
+      } else {
+        this.borderRect_.setAttribute('fill', 'transparent');
+      }
+  }*/
   // Non-abstract sub-classes may wish to implement this. See FieldDropdown.
 };
 

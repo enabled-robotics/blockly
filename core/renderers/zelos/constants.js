@@ -28,37 +28,37 @@ goog.require('Blockly.utils.svgPaths');
 Blockly.zelos.ConstantProvider = function() {
   Blockly.zelos.ConstantProvider.superClass_.constructor.call(this);
 
-  this.GRID_UNIT = 4;
+  this.GRID_UNIT = 3;
 
   /**
    * @override
    */
-  this.SMALL_PADDING = this.GRID_UNIT;
+  this.SMALL_PADDING =  0.5 * this.GRID_UNIT;
 
   /**
    * @override
    */
-  this.MEDIUM_PADDING = 2 * this.GRID_UNIT;
+  this.MEDIUM_PADDING = 1 * this.GRID_UNIT;
 
   /**
    * @override
    */
-  this.MEDIUM_LARGE_PADDING = 3 * this.GRID_UNIT;
+  this.MEDIUM_LARGE_PADDING = 2 * this.GRID_UNIT;
 
   /**
    * @override
    */
-  this.LARGE_PADDING = 4 * this.GRID_UNIT;
+  this.LARGE_PADDING = 3 * this.GRID_UNIT;
 
   /**
    * @override
    */
-  this.CORNER_RADIUS = 1 * this.GRID_UNIT;
+  this.CORNER_RADIUS = 1.5 * this.GRID_UNIT;
 
   /**
    * @override
    */
-  this.NOTCH_WIDTH = 9 * this.GRID_UNIT;
+  this.NOTCH_WIDTH = 6 * this.GRID_UNIT;
 
   /**
    * @override
@@ -68,7 +68,7 @@ Blockly.zelos.ConstantProvider = function() {
   /**
    * @override
    */
-  this.NOTCH_OFFSET_LEFT = 3 * this.GRID_UNIT;
+  this.NOTCH_OFFSET_LEFT = 12 * this.GRID_UNIT;
 
   /**
    * @override
@@ -78,42 +78,42 @@ Blockly.zelos.ConstantProvider = function() {
   /**
    * @override
    */
-  this.MIN_BLOCK_WIDTH = 2 * this.GRID_UNIT;
+  this.MIN_BLOCK_WIDTH = 1 * this.GRID_UNIT;
 
   /**
    * @override
    */
-  this.MIN_BLOCK_HEIGHT = 12 * this.GRID_UNIT;
+  this.MIN_BLOCK_HEIGHT = 5 * this.GRID_UNIT;
 
   /**
    * @override
    */
-  this.EMPTY_STATEMENT_INPUT_HEIGHT = 6 * this.GRID_UNIT;
+  this.EMPTY_STATEMENT_INPUT_HEIGHT = 10 * this.GRID_UNIT;
 
   /**
    * @override
    */
-  this.TAB_OFFSET_FROM_TOP = 0;
+  this.TAB_OFFSET_FROM_TOP = -10* this.GRID_UNIT;
 
   /**
    * @override
    */
-  this.TOP_ROW_MIN_HEIGHT = this.CORNER_RADIUS;
+  this.TOP_ROW_MIN_HEIGHT = 1.5*this.CORNER_RADIUS;
 
   /**
    * @override
    */
-  this.TOP_ROW_PRECEDES_STATEMENT_MIN_HEIGHT = this.LARGE_PADDING;
+  this.TOP_ROW_PRECEDES_STATEMENT_MIN_HEIGHT = 0.5*this.LARGE_PADDING;
 
   /**
    * @override
    */
-  this.BOTTOM_ROW_MIN_HEIGHT = this.CORNER_RADIUS;
+  this.BOTTOM_ROW_MIN_HEIGHT = 1.5 * this.CORNER_RADIUS;
 
   /**
    * @override
    */
-  this.BOTTOM_ROW_AFTER_STATEMENT_MIN_HEIGHT = 6 * this.GRID_UNIT;
+  this.BOTTOM_ROW_AFTER_STATEMENT_MIN_HEIGHT = 3 * this.GRID_UNIT;
 
   /**
    * @override
@@ -124,7 +124,7 @@ Blockly.zelos.ConstantProvider = function() {
    * Minimum statement input spacer width.
    * @type {number}
    */
-  this.STATEMENT_INPUT_SPACER_MIN_WIDTH = 40 * this.GRID_UNIT;
+  this.STATEMENT_INPUT_SPACER_MIN_WIDTH = 50 * this.GRID_UNIT;
 
   /**
    * @override
@@ -144,7 +144,7 @@ Blockly.zelos.ConstantProvider = function() {
   /**
    * @override
    */
-  this.DUMMY_INPUT_MIN_HEIGHT = 8 * this.GRID_UNIT;
+  this.DUMMY_INPUT_MIN_HEIGHT = 4 * this.GRID_UNIT;
 
   /**
    * @override
@@ -166,7 +166,7 @@ Blockly.zelos.ConstantProvider = function() {
    * @type {number}
    * @package
    */
-  this.CURSOR_RADIUS = 5;
+  this.CURSOR_RADIUS = 10;
 
   /**
    * @override
@@ -237,28 +237,28 @@ Blockly.zelos.ConstantProvider = function() {
   /**
    * @override
    */
-  this.FIELD_TEXT_FONTSIZE = 3 * this.GRID_UNIT;
+  this.FIELD_TEXT_FONTSIZE = 4 * this.GRID_UNIT;
 
   /**
    * @override
    */
-  this.FIELD_TEXT_FONTWEIGHT = 'bold';
+  this.FIELD_TEXT_FONTWEIGHT = '';
 
   /**
    * @override
    */
   this.FIELD_TEXT_FONTFAMILY =
-    '"Helvetica Neue", "Segoe UI", Helvetica, sans-serif';
+    '"Nunito", "Nunito Sans"';
 
   /**
    * @override
    */
-  this.FIELD_BORDER_RECT_RADIUS = this.CORNER_RADIUS;
+  this.FIELD_BORDER_RECT_RADIUS = 0.5*this.CORNER_RADIUS;
 
   /**
    * @override
    */
-  this.FIELD_BORDER_RECT_X_PADDING = 2 * this.GRID_UNIT;
+  this.FIELD_BORDER_RECT_X_PADDING = 1 * this.GRID_UNIT;
 
   /**
    * @override
@@ -268,12 +268,12 @@ Blockly.zelos.ConstantProvider = function() {
   /**
    * @override
    */
-  this.FIELD_BORDER_RECT_HEIGHT = 8 * this.GRID_UNIT;
+  this.FIELD_BORDER_RECT_HEIGHT = 1 * this.GRID_UNIT;
 
   /**
    * @override
    */
-  this.FIELD_DROPDOWN_BORDER_RECT_HEIGHT = 8 * this.GRID_UNIT;
+  this.FIELD_DROPDOWN_BORDER_RECT_HEIGHT = 2 * this.GRID_UNIT;
 
   /**
    * @override
@@ -313,7 +313,7 @@ Blockly.zelos.ConstantProvider = function() {
   /**
    * @override
    */
-  this.FIELD_COLOUR_DEFAULT_HEIGHT = 4 * this.GRID_UNIT;
+  this.FIELD_COLOUR_DEFAULT_HEIGHT = 1 * this.GRID_UNIT;
 
   /**
    * @override
@@ -324,13 +324,13 @@ Blockly.zelos.ConstantProvider = function() {
    * The maximum width of a dynamic connection shape.
    * @type {number}
    */
-  this.MAX_DYNAMIC_CONNECTION_SHAPE_WIDTH = 12 * this.GRID_UNIT;
+  this.MAX_DYNAMIC_CONNECTION_SHAPE_WIDTH = 6 * this.GRID_UNIT;
 
   /**
    * The selected glow colour.
    * @type {string}
    */
-  this.SELECTED_GLOW_COLOUR = '#fff200';
+  this.SELECTED_GLOW_COLOUR = '#353535';
 
   /**
    * The size of the selected glow.
@@ -342,7 +342,7 @@ Blockly.zelos.ConstantProvider = function() {
    * The replacement glow colour.
    * @type {string}
    */
-  this.REPLACEMENT_GLOW_COLOUR = '#fff200';
+  this.REPLACEMENT_GLOW_COLOUR = '#353535';
 
   /**
    * The size of the selected glow.
@@ -391,7 +391,7 @@ Blockly.zelos.ConstantProvider.prototype.setFontConstants_ = function(theme) {
       theme);
 
   this.FIELD_BORDER_RECT_HEIGHT = this.FIELD_TEXT_HEIGHT +
-      this.FIELD_BORDER_RECT_Y_PADDING * 2;
+      this.FIELD_BORDER_RECT_Y_PADDING*0.5;
   this.FIELD_DROPDOWN_BORDER_RECT_HEIGHT = this.FIELD_BORDER_RECT_HEIGHT;
 };
 
@@ -684,8 +684,8 @@ Blockly.zelos.ConstantProvider.prototype.makeNotch = function() {
   var width = this.NOTCH_WIDTH;
   var height = this.NOTCH_HEIGHT;
 
-  var innerWidth = width / 3;
-  var curveWidth = innerWidth / 3;
+  var innerWidth = width / 2;
+  var curveWidth = innerWidth / 6;
 
   var halfHeight = height / 2;
   var quarterHeight = halfHeight / 2;
@@ -915,14 +915,14 @@ Blockly.zelos.ConstantProvider.prototype.getCSS_ = function(selector) {
     selector + ' .blocklyText {',
       'fill: #fff;',
     '}',
-    selector + ' .blocklyNonEditableText>rect:not(.blocklyDropdownRect),',
-    selector + ' .blocklyEditableText>rect:not(.blocklyDropdownRect) {',
+    selector + ' .blocklyNonEditableText>rect:not(.blocklyDropdownRect, .blocklyFieldRect),',
+    selector + ' .blocklyEditableText>rect:not(.blocklyDropdownRect, blocklyFieldRect) {',
       'fill: ' + this.FIELD_BORDER_RECT_COLOUR + ';',
     '}',
     selector + ' .blocklyNonEditableText>text,',
-    selector + ' .blocklyEditableText>text,',
+    //selector + ' .blocklyEditableText>text,',
     selector + ' .blocklyNonEditableText>g>text,',
-    selector + ' .blocklyEditableText>g>text {',
+    //selector + ' .blocklyEditableText>g>text {',
       'fill: #575E75;',
     '}',
 
@@ -937,20 +937,20 @@ Blockly.zelos.ConstantProvider.prototype.getCSS_ = function(selector) {
     '}',
 
     // Editable field hover.
+    /*selector + ' .blocklyDraggable:not(.blocklyDisabled)',
+    //' .blocklyEditableText:not(.editing):hover>rect,',
     selector + ' .blocklyDraggable:not(.blocklyDisabled)',
-    ' .blocklyEditableText:not(.editing):hover>rect,',
-    selector + ' .blocklyDraggable:not(.blocklyDisabled)',
-    ' .blocklyEditableText:not(.editing):hover>.blocklyPath {',
+    //' .blocklyEditableText:not(.editing):hover>.blocklyPath {',
       'stroke: #fff;',
       'stroke-width: 2;',
-    '}',
+    '}',*/
 
     // Text field input.
-    selector + ' .blocklyHtmlInput {',
+    /*selector + ' .blocklyHtmlInput {',
       'font-family: ' + this.FIELD_TEXT_FONTFAMILY + ';',
       'font-weight: ' + this.FIELD_TEXT_FONTWEIGHT + ';',
-      'color: #575E75;',
-    '}',
+      'color: #fff;',
+    '}',*/
 
     // Dropdown field.
     selector + ' .blocklyDropdownText {',
