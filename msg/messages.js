@@ -72,7 +72,7 @@ Blockly.Msg.PROCEDURES_HUE = '290';
 /// [[Translating:Blockly#infrequent_message_types]].\n{{Identical|Item}}
 Blockly.Msg.VARIABLES_DEFAULT_NAME = 'item';
 /// button text - Button that sets a calendar to today's date.\n{{Identical|Today}}
-Blockly.Msg.TODAY = 'Today';
+Blockly.Msg.TODAY = 'Tomorrow';
 
 // Context menus.
 /// context menu - Make a copy of the selected block (and any blocks it contains).\n{{Identical|Duplicate}}
@@ -1432,6 +1432,16 @@ Blockly.Msg.ER_PALLETIZE_TOOLTIP = 'Runs a sequence of instructions in a given p
 Blockly.Msg.ER_BOXPATTERN_TITLE = 'Box Pattern'
 Blockly.Msg.ER_BOXPATTERN_DESCRIPTION = 'Defines a set of positions in a box shaped (rectanglar) pattern'
 Blockly.Msg.ER_BOXPATTERN_TOOLTIP = 'Defines box shaped (rectangular) pattern'
+
+
+/// context menu - Add a descriptive comment to the selected block.
+Blockly.Msg.ER_HTTP_REQUEST_TITLE = 'Http request'
+
+/// the user can type here.
+Blockly.Msg.ER_HTTP_REQUEST_TOOLTIP = 'Send a http request'
+
+/// the user can type here.
+Blockly.Msg.ER_HTTP_REQUEST_DESCRIPTION = 'Send a http request'
 
 
 /// warning - This appears if the user collapses a block, and blocks inside
