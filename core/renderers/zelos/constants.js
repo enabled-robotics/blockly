@@ -58,7 +58,7 @@ Blockly.zelos.ConstantProvider = function() {
   /**
    * @override
    */
-  this.NOTCH_WIDTH = 6 * this.GRID_UNIT;
+  this.NOTCH_WIDTH = 5 * this.GRID_UNIT;
 
   /**
    * @override
@@ -68,7 +68,7 @@ Blockly.zelos.ConstantProvider = function() {
   /**
    * @override
    */
-  this.NOTCH_OFFSET_LEFT = 12 * this.GRID_UNIT;
+  this.NOTCH_OFFSET_LEFT = 13.5 * this.GRID_UNIT;
 
   /**
    * @override
