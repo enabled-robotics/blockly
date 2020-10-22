@@ -1433,14 +1433,8 @@ Blockly.Msg.ER_BOXPATTERN_TITLE = 'Box Pattern'
 Blockly.Msg.ER_BOXPATTERN_DESCRIPTION = 'Defines a set of positions in a box shaped (rectanglar) pattern'
 Blockly.Msg.ER_BOXPATTERN_TOOLTIP = 'Defines box shaped (rectangular) pattern'
 
-
-/// context menu - Add a descriptive comment to the selected block.
 Blockly.Msg.ER_HTTP_REQUEST_TITLE = 'Http request'
-
-/// the user can type here.
 Blockly.Msg.ER_HTTP_REQUEST_TOOLTIP = 'Send a http request'
-
-/// the user can type here.
 Blockly.Msg.ER_HTTP_REQUEST_DESCRIPTION = 'Send a http request'
 
 
