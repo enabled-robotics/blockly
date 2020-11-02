@@ -72,7 +72,7 @@ Blockly.Msg.PROCEDURES_HUE = '290';
 /// [[Translating:Blockly#infrequent_message_types]].\n{{Identical|Item}}
 Blockly.Msg.VARIABLES_DEFAULT_NAME = 'item';
 /// button text - Button that sets a calendar to today's date.\n{{Identical|Today}}
-Blockly.Msg.TODAY = 'Today';
+Blockly.Msg.TODAY = 'Tomorrow';
 
 // Context menus.
 /// context menu - Make a copy of the selected block (and any blocks it contains).\n{{Identical|Duplicate}}
@@ -1433,6 +1433,13 @@ Blockly.Msg.ER_BOXPATTERN_TITLE = 'Box Pattern'
 Blockly.Msg.ER_BOXPATTERN_DESCRIPTION = 'Defines a set of positions in a box shaped (rectanglar) pattern'
 Blockly.Msg.ER_BOXPATTERN_TOOLTIP = 'Defines box shaped (rectangular) pattern'
 
+Blockly.Msg.ER_HTTP_REQUEST_TITLE = 'Http request'
+Blockly.Msg.ER_HTTP_REQUEST_TOOLTIP = 'Send a http request'
+Blockly.Msg.ER_HTTP_REQUEST_DESCRIPTION = 'Send a http request'
+
+Blockly.Msg.ER_SET_PAYLOAD_TITLE = 'Set Payload'
+Blockly.Msg.ER_SET_PAYLOAD_DESCRIPTION = 'To set the payload of the arm two parameters needs to be given. <br/> 1) The actual payload measured in kg and <br/>2) The position [x,y,z] (in meters) of the Center of Mass (CoM) of the payload. The position is to be measured relative to the toolmount frame and NOT the  TCP frame.'
+Blockly.Msg.ER_SET_PAYLOAD_TOOLTIP = 'Set the payload of the arm'
 
 /// warning - This appears if the user collapses a block, and blocks inside
 // that block have warnings attached to them. It should inform the user that the
