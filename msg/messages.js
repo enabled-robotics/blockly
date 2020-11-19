@@ -1441,6 +1441,11 @@ Blockly.Msg.ER_SET_PAYLOAD_TITLE = 'Set Payload'
 Blockly.Msg.ER_SET_PAYLOAD_DESCRIPTION = 'To set the payload of the arm two parameters needs to be given. <br/> 1) The actual payload measured in kg and <br/>2) The position [x,y,z] (in meters) of the Center of Mass (CoM) of the payload. The position is to be measured relative to the toolmount frame and NOT the  TCP frame.'
 Blockly.Msg.ER_SET_PAYLOAD_TOOLTIP = 'Set the payload of the arm'
 
+Blockly.Msg.ER_SET_TCP_TITLE = 'Set TCP'
+Blockly.Msg.ER_SET_TCP_DESCRIPTION = 'Sets the transformation between the tool flange (the end) of the robot arm and the actual TCP. <br/> Changing the TCP in the program will offset all movements specified relative to the TCP. Movements specified in joint angles will not be impacted.'
+Blockly.Msg.ER_SET_TCP_TOOLTIP = 'Set the TCP of the robot'
+
+
 /// warning - This appears if the user collapses a block, and blocks inside
 // that block have warnings attached to them. It should inform the user that the
 // block they collapsed contains blocks that have warnings.
