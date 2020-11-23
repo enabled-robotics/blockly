@@ -1355,6 +1355,126 @@ Blockly.Msg.ER_SET_TCP_TITLE = 'Set TCP'
 Blockly.Msg.ER_SET_TCP_DESCRIPTION = 'Sets the transformation between the tool flange (the end) of the robot arm and the actual TCP. <br/> Changing the TCP in the program will offset all movements specified relative to the TCP. Movements specified in joint angles will not be impacted.'
 Blockly.Msg.ER_SET_TCP_TOOLTIP = 'Set the TCP of the robot'
 
+//'ER_LOGIC_COMPARE';
+Blockly.Msg.ER_LOGIC_COMPARE_TITLE = 'Compare';
+Blockly.Msg.ER_LOGIC_COMPARE_TOOLTIP = 'Logical comparison';
+Blockly.Msg.ER_LOGIC_COMPARE_DESCRIPTION = 'Performs a logic comparison of two values.</br>Select which type of comparison to perform.</br>Assumes that the left and right hand sides of the comparison has identical data types. If the data types and incompatible the compare operator throws an exception. The exception can be caught using the \'Try Catch\' construct. Failing to catch the exception will cause the program to halt.';
+
+//'ER_LOGIC_OPERATION';
+Blockly.Msg.ER_LOGIC_OPERATION_TITLE ='Logic Operation';
+Blockly.Msg.ER_LOGIC_OPERATION_TOOLTIP = 'Logic Operation';
+Blockly.Msg.ER_LOGIC_OPERATION_DESCRIPTION = 'Performs a logic operation of two boolean expression.</br>Select which type of operation to perform. The type can be logic \'and\' or \'or\'.</br>If the right and left hand sides of the expression do not evaluate to boolean expressions the operation throws an exception. The exception can be caught using the \'Try Catch\' construct. Failing to catch the exception will cause the program to halt.';
+
+//'ER_LOGIC_NEGATE';
+Blockly.Msg.ER_LOGIC_NEGATE_TITLE ='Negates Boolean Value';
+Blockly.Msg.ER_LOGIC_NEGATE_TOOLTIP ='Negates boolean value';
+Blockly.Msg.ER_LOGIC_NEGATE_DESCRIPTION ='Negates boolean value.</br>The block only accepts values of boolean type. If needed to regate the value of a variable you need to create a logical comparison to extract the value of the variable.';
+
+//'ER_MATH_NUMBER';
+Blockly.Msg.ER_MATH_NUMBER_TITLE ='Number';
+Blockly.Msg.ER_MATH_NUMBER_TOOLTIP  ='Number value';
+Blockly.Msg.ER_MATH_NUMBER_DESCRIPTION  ='Number value.</br>Numbers are represented a floating point values with double precision.';
+
+//'ER_STRING';
+Blockly.Msg.ER_STRING_TITLE ='String';
+Blockly.Msg.ER_STRING_TOOLTIP ='String value';
+Blockly.Msg.ER_STRING_DESCRIPTION ='String value';
+
+//'ER_ARRAY';
+Blockly.Msg.ER_ARRAY_TITLE ='Array';
+Blockly.Msg.ER_ARRAY_TOOLTIP ='Array of numbers';
+Blockly.Msg.ER_ARRAY_DESCRIPTION ='Array of numbers.</br>The size of the array can be extended and reduced selecting Add or Remove Element. Elements are alway appended to and removed from the back of the list.';
+
+//'ER_MATH';
+Blockly.Msg.ER_MATH_TITLE ='Number Operation';
+Blockly.Msg.ER_MATH_TOOLTIP ='Basic mathematical +,-,*,/ operations';
+Blockly.Msg.ER_MATH_DESCRIPTION ='Provides functionality for adding, subtracting, multiplying and dividing.</br>If adding numbers or boolean with a string, the result becomes a string.</br>If the expressions do not valuate to numbers the operation throws an exception. The exception can be caught using the \'Try Catch\' construct. Failing to catch the exception will cause the program to halt.';
+
+//'ER_DEFINE_REFERENCE';
+Blockly.Msg.ER_DEFINE_REFERENCE_TITLE = 'Set a Reference';
+Blockly.Msg.ER_DEFINE_REFERENCE_TOOLTIP ='Updates value of a reference';
+Blockly.Msg.ER_DEFINE_REFERENCE_DESCRIPTION ='Updates the value of a reference.</br>When a reference is updated all motions relative to this reference will be relative to the new values.</br>This block enables to reuse same movements in a number of different locations. For instance, if having to execute the same assembly sequence in four locations, the movements can be programmed relative to a reference and only the reference will have to be updated for the four different locations.';
+
+//'ER_XYZRPY';
+Blockly.Msg.ER_XYZRPY_TITLE = 'Tool Configuration';
+Blockly.Msg.ER_XYZRPY_TOOLTIP ='Position and orientation of the tool';
+Blockly.Msg.ER_XYZRPY_DESCRIPTION = 'Position and orientation of the specified tool in the selected reference frame.</br>Position are in meters.</br>Orientation specified as ZYX Euler Angles and measured in degrees.';
+
+//'ER_Q';
+Blockly.Msg.ER_Q_TITLE ='Joint Configuration';
+Blockly.Msg.ER_Q_TOOLTIP = 'Configuration of the robot arm specified by joint angles. All angles specified in degrees.';
+Blockly.Msg.ER_Q_DESCRIPTION = 'Configuration of the robot arm specified by joint angles. All angles specified in degrees.';
+
+//'ER_MIR_COORDINATES';
+Blockly.Msg.ER_MIR_COORDINATES_TITLE ='Position';
+Blockly.Msg.ER_MIR_COORDINATES_TOOLTIP = 'Position (X, Y) in meter and orientation (Angle) in degrees';
+Blockly.Msg.ER_MIR_COORDINATES_DESCRIPTION = 'Position (X, Y) in meter and orientation (Angle) in degrees. </br>Positions are relative to the internal map of the mobile robot. This reference is defined as the World frame.';
+
+//'ER_VAR_SET';
+Blockly.Msg.ER_VAR_SET_TITLE ='Set Variable';
+Blockly.Msg.ER_VAR_SET_TOOLTIP = 'Set value of variable';
+Blockly.Msg.ER_VAR_SET_DESCRIPTION = 'Set value of variable.</br>A variable is globally available in the program (including in sub functions) and can hold any data type available in the interface. </br>Variables and not persistent and values will not be remembers between to runs of the same program.';
+
+//'ER_VAR_GET';
+Blockly.Msg.ER_VAR_GET_TITLE ='Get variable.';
+Blockly.Msg.ER_VAR_GET_TOOLTIP = 'Get value of variable.';
+Blockly.Msg.ER_VAR_GET_DESCRIPTION = 'Get value of variable.</br>A variable is globally available in the program (including in sub functions) and can hold any data type available in the interface. </br>Variables and not persistent and values will not be remembers between to runs of the same program. A variables thus needs to be Set before it can be accessed. </br>Trying to get the value of a variable not yet defined results in an exception.';
+
+//'ER_POPUP';
+Blockly.Msg.ER_POPUP_TITLE ='Popup';
+Blockly.Msg.ER_POPUP_TOOLTIP = 'Popup message with true/false return value';
+Blockly.Msg.ER_POPUP_DESCRIPTION = 'Generated Popup message for the user. </br>The user can select to confirm with and Ok or Cancel. The result is stored as a boolean in a variable, where Ok is true and Cancel is false. This variable can later be used to branch the program based on the user input.';
+
+//'ER_WAIT';
+Blockly.Msg.ER_WAIT_TITLE ='Wait';
+Blockly.Msg.ER_WAIT_TOOLTIP = 'Wait for defined time';
+Blockly.Msg.ER_WAIT_DESCRIPTION = 'Wait for the specified time before continuing execution.';
+
+//'ER_WAIT_UNTIL';
+Blockly.Msg.ER_WAIT_UNTIL_TITLE ='Wait Until';
+Blockly.Msg.ER_WAIT_UNTIL_TOOLTIP = 'Wait until condition';
+Blockly.Msg.ER_WAIT_UNTIL_DESCRIPTION = 'Waits until a condition is met';
+
+//'ER_IS_TIME';
+Blockly.Msg.ER_IS_TIME_TITLE ='Compares the Time';
+Blockly.Msg.ER_IS_TIME_TOOLTIP = 'Compares the current time with a set time';
+Blockly.Msg.ER_IS_TIME_DESCRIPTION = 'Compares the current time with a set time.</br>The block support checking if time is equal, not equal, less than, less than or equal, greater than or greater than or equal.</br>Time is compared based on hours and minutes. ';
+
+//'ER_BATTERY_POWER_PERCENTAGE';
+Blockly.Msg.ER_BATTERY_POWER_PERCENTAGE_TITLE ='Battery Power Percentage';
+Blockly.Msg.ER_BATTERY_POWER_PERCENTAGE_TOOLTIP = 'Remaining battery power in percentages';
+Blockly.Msg.ER_BATTERY_POWER_PERCENTAGE_DESCRIPTION = 'Value for remaining battery power in percentages.</br>The value if of type number';
+
+//'ER_FUNCTION_BLOCK';
+Blockly.Msg.ER_FUNCTION_BLOCK_TITLE ='Function Block';
+Blockly.Msg.ER_FUNCTION_BLOCK_TOOLTIP = 'Defines a function that can be called multile times from the main program';
+Blockly.Msg.ER_FUNCTION_BLOCK_DESCRIPTION = 'Defines a sequence of instructions which can be called as a function.</br>The instrutions of the \'Function Block\' is called as if they where inlined in the sequence of the caller.</br>Variables are therefore not subject to scope.';
+
+//'ER_CALL_FUNCTION_BLOCK';
+Blockly.Msg.ER_CALL_FUNCTION_BLOCK_TITLE ='Call Function Block';
+Blockly.Msg.ER_CALL_FUNCTION_BLOCK_TOOLTIP = 'Call Function Block';
+Blockly.Msg.ER_CALL_FUNCTION_BLOCK_DESCRIPTION = 'Executes the instructions defined in a \'Function Block\'';
+
+//'ER_TRY_CATCH';
+Blockly.Msg.ER_TRY_CATCH_TITLE ='Try Catch';
+Blockly.Msg.ER_TRY_CATCH_TOOLTIP = 'Try Catch structure';
+Blockly.Msg.ER_TRY_CATCH_DESCRIPTION = '\'Try Catch\' structure enabling catching exceptions (errors) produced by the instructions in the Try section.</br>Only if an error is triggered the instructions specified within the Catch section is executed. Use the Catch section to handle the errors.';
+
+//'ER_THROW';
+Blockly.Msg.ER_THROW_TITLE ='Throw';
+Blockly.Msg.ER_THROW_TOOLTIP ='Throws an error message.';
+Blockly.Msg.ER_THROW_DESCRIPTION ='Throws an exception (error message), which can be caught by the Try-Catch block.</br>If the exception is not caught it will cause the program to halt.';
+
+//'ER_EXIT';
+Blockly.Msg.ER_EXIT_TITLE ='Exit';
+Blockly.Msg.ER_EXIT_TOOLTIP ='When called stops the program';
+Blockly.Msg.ER_EXIT_DESCRIPTION ='Exits the program being executed.</br>Can be used if the program needs to stop given a certain condition. For instance if there are no objects/markers detected.';
+
+//'ER_PROGRAM';
+Blockly.Msg.ER_PROGRAM_TITLE ='Program';
+Blockly.Msg.ER_PROGRAM_TOOLTIP ='Defines program to be executed';
+Blockly.Msg.ER_PROGRAM_DESCRIPTION ='Defines program to be executed. </br>This block is mandatory and exactly one block will always exist.'
+
 
 /// warning - This appears if the user collapses a block, and blocks inside
 // that block have warnings attached to them. It should inform the user that the
