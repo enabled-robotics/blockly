@@ -1355,6 +1355,31 @@ Blockly.Msg.ER_SET_TCP_TITLE = 'Set TCP'
 Blockly.Msg.ER_SET_TCP_DESCRIPTION = 'Sets the transformation between the tool flange (the end) of the robot arm and the actual TCP. <br/> Changing the TCP in the program will offset all movements specified relative to the TCP. Movements specified in joint angles will not be impacted.'
 Blockly.Msg.ER_SET_TCP_TOOLTIP = 'Set the TCP of the robot'
 
+//'er_drive_to_rec_table'
+Blockly.Msg.ER_DRIVE_TO_REC_TABLE_TITLE ='Drive to received table';
+Blockly.Msg.ER_DRIVE_TO_REC_TABLE_TOOLTIP ='Drive to received table';
+Blockly.Msg.ER_DRIVE_TO_REC_TABLE_DESCRIPTION ='Drive to received table';
+
+//'er_move_arm_for_view'
+Blockly.Msg.ER_MOVE_ARM_FOR_VIEW_TITLE ='Move arm for view';
+Blockly.Msg.ER_MOVE_ARM_FOR_VIEW_TOOLTIP ='Move arm for view';
+Blockly.Msg.ER_MOVE_ARM_FOR_VIEW_DESCRIPTION ='Move arm for view';
+
+//'er_detect_plane'
+Blockly.Msg.ER_DETECT_PLANE_TITLE ='Detect plane';
+Blockly.Msg.ER_DETECT_PLANE_TOOLTIP ='Detect plane';
+Blockly.Msg.ER_DETECT_PLANE_DESCRIPTION ='Detect plane';
+
+//'er_plan_coverage'
+Blockly.Msg.ER_PLAN_COVERAGE_TITLE ='Plan coverage';
+Blockly.Msg.ER_PLAN_COVERAGE_TOOLTIP ='Plan coverage';
+Blockly.Msg.ER_PLAN_COVERAGE_DESCRIPTION ='Plan coverage';
+
+//'er_execute_coverage_plan'
+Blockly.Msg.ER_EXECUTE_COVERAGE_PLAN_TITLE ='Execute coverage';
+Blockly.Msg.ER_EXECUTE_COVERAGE_PLAN_TOOLTIP  ='Execute coverage';
+Blockly.Msg.ER_EXECUTE_COVERAGE_PLAN_DESCRIPTION  ='Execute coverage';
+
 
 /// warning - This appears if the user collapses a block, and blocks inside
 // that block have warnings attached to them. It should inform the user that the
