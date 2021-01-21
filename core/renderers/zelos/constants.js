@@ -917,7 +917,7 @@ Blockly.zelos.ConstantProvider.prototype.getCSS_ = function(selector) {
     '}',
     selector + ' .blocklyNonEditableText>rect:not(.blocklyDropdownRect, .blocklyFieldRect),',
     selector + ' .blocklyEditableText>rect:not(.blocklyDropdownRect, blocklyFieldRect) {',
-      'fill: ' + this.FIELD_BORDER_RECT_COLOUR + ';',
+      //'fill: ' + this.FIELD_BORDER_RECT_COLOUR + ';',
     '}',
     selector + ' .blocklyNonEditableText>text,',
     //selector + ' .blocklyEditableText>text,',
