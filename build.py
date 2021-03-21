@@ -404,8 +404,8 @@ class Gen_langfiles(threading.Thread):
       subprocess.check_call([
           "python",
           os.path.join("i18n", "js_to_json.py"),
-          "--input_file", "msg/messages.js",
-          "--output_dir", "msg/json/",
+          "--input_file", "../msg/messages.js",
+          "--output_dir", "../msg/json/",
           "--quiet"])
     except (subprocess.CalledProcessError, OSError) as e:
       # Documentation for subprocess.check_call says that CalledProcessError
@@ -421,13 +421,13 @@ class Gen_langfiles(threading.Thread):
       cmd = [
           "python",
           os.path.join("i18n", "create_messages.py"),
-          "--source_lang_file", os.path.join("msg", "json", "en.json"),
-          "--source_synonym_file", os.path.join("msg", "json", "synonyms.json"),
-          "--source_constants_file", os.path.join("msg", "json", "constants.json"),
-          "--key_file", os.path.join("msg", "json", "keys.json"),
-          "--output_dir", os.path.join("msg", "js"),
+          "--source_lang_file", os.path.join("../msg", "json", "en.json"),
+          "--source_synonym_file", os.path.join("../msg", "json", "synonyms.json"),
+          "--source_constants_file", os.path.join("../msg", "json", "constants.json"),
+          "--key_file", os.path.join("../msg", "json", "keys.json"),
+          "--output_dir", os.path.join("../msg", "js"),
           "--quiet"]
-      json_files = glob.glob(os.path.join("msg", "json", "*.json"))
+      json_files = glob.glob(os.path.join("../msg", "json", "*.json"))
       json_files = [file for file in json_files if not
                     (file.endswith(("keys.json", "synonyms.json", "qqq.json", "constants.json")))]
       cmd.extend(json_files)
