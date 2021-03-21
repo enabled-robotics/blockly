@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"author": "Ellen Spertus <ellen.spertus@gmail.com>",
-		"lastupdated": "2020-07-27 10:45:00.023440",
+		"lastupdated": "2021-03-21 10:38:02.503772",
 		"locale": "en",
 		"messagedocumentation" : "qqq"
 	},
 	"VARIABLES_DEFAULT_NAME": "item",
-	"TODAY": "Today",
+	"TODAY": "Tomorrow",
 	"DUPLICATE_BLOCK": "Duplicate",
 	"ADD_COMMENT": "Add Comment",
 	"REMOVE_COMMENT": "Remove Comment",
@@ -58,7 +58,7 @@
 	"COLOUR_BLEND_RATIO": "ratio",
 	"COLOUR_BLEND_TOOLTIP": "Blends two colours together with a given ratio (0.0 - 1.0).",
 	"CONTROLS_REPEAT_HELPURL": "https://en.wikipedia.org/wiki/For_loop",
-	"CONTROLS_REPEAT_TITLE": "         repeat %1 times",
+	"CONTROLS_REPEAT_TITLE": "repeat %1 times",
 	"CONTROLS_REPEAT_INPUT_DO": "do",
 	"CONTROLS_REPEAT_TOOLTIP": "Do some statements several times.",
 	"CONTROLS_WHILEUNTIL_HELPURL": "https://github.com/google/blockly/wiki/Loops#repeat",
@@ -575,5 +575,17 @@
 	"ER_BOXPATTERN_TITLE": "Box Pattern",
 	"ER_BOXPATTERN_DESCRIPTION": "Defines a set of positions in a box shaped (rectanglar) pattern",
 	"ER_BOXPATTERN_TOOLTIP": "Defines box shaped (rectangular) pattern",
+	"ER_HTTP_REQUEST_TITLE": "Http request",
+	"ER_HTTP_REQUEST_TOOLTIP": "Send a http request",
+	"ER_HTTP_REQUEST_DESCRIPTION": "Send a http request",
+	"ER_SET_PAYLOAD_TITLE": "Set Payload",
+	"ER_SET_PAYLOAD_DESCRIPTION": "To set the payload of the arm two parameters needs to be given. <br/> 1) The actual payload measured in kg and <br/>2) The position [x,y,z] (in meters) of the Center of Mass (CoM) of the payload. The position is to be measured relative to the toolmount frame and NOT the  TCP frame.",
+	"ER_SET_PAYLOAD_TOOLTIP": "Set the payload of the arm",
+	"ER_SET_TCP_TITLE": "Set TCP",
+	"ER_SET_TCP_DESCRIPTION": "Sets the transformation between the tool flange (the end) of the robot arm and the actual TCP. <br/> Changing the TCP in the program will offset all movements specified relative to the TCP. Movements specified in joint angles will not be impacted.",
+	"ER_SET_TCP_TOOLTIP": "Set the TCP of the robot",
+	"ER_SET_ACTIVE_TOOL_TITLE": "Set Active Tool",
+	"ER_SET_ACTIVE_TOOL_DESCRIPTION": "Sets the tool to be used when having selected <it>Active Tool</it>.",
+	"ER_SET_ACTIVE_TOOL_TOOLTIP": "Set the Active Tool of the arm",
 	"COLLAPSED_WARNINGS_WARNING": "Collapsed blocks contain warnings."
 }

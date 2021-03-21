@@ -1445,6 +1445,9 @@ Blockly.Msg.ER_SET_TCP_TITLE = 'Set TCP'
 Blockly.Msg.ER_SET_TCP_DESCRIPTION = 'Sets the transformation between the tool flange (the end) of the robot arm and the actual TCP. <br/> Changing the TCP in the program will offset all movements specified relative to the TCP. Movements specified in joint angles will not be impacted.'
 Blockly.Msg.ER_SET_TCP_TOOLTIP = 'Set the TCP of the robot'
 
+Blockly.Msg.ER_SET_ACTIVE_TOOL_TITLE = 'Set Active Tool'
+Blockly.Msg.ER_SET_ACTIVE_TOOL_DESCRIPTION = 'Sets the tool to be used when having selected <it>Active Tool</it>.'
+Blockly.Msg.ER_SET_ACTIVE_TOOL_TOOLTIP = 'Set the Active Tool of the arm'
 
 /// warning - This appears if the user collapses a block, and blocks inside
 // that block have warnings attached to them. It should inform the user that the
